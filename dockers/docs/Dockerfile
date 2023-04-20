@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 
 LABEL maintainer="Lightning-AI <https://github.com/Lightning-AI>"
 
