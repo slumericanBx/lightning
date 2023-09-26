@@ -3,3 +3,4 @@ moviepy
 lightning>=1.9.0
 torchmetrics
 tensorboard
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
