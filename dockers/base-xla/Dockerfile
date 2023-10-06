@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM google/cloud-sdk:slim
+FROM google/cloud-sdk:449.0.0-slim
 
 LABEL maintainer="Lightning-AI <https://github.com/Lightning-AI>"
 
