@@ -14,3 +14,7 @@ sphinx-multiproject
 sphinx-toolbox==3.2.0
 sphinx-rtd-dark-mode
 jinja2>=3.0.0,<3.2.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
