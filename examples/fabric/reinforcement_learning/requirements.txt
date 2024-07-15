@@ -3,3 +3,4 @@ moviepy
 lightning>=1.9.0
 torchmetrics
 tensorboard
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
