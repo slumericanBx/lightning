@@ -1,2 +1,3 @@
 torchmetrics  # necessary because old PL verions don't have it as dependency
 scikit-learn
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
