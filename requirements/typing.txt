@@ -1,5 +1,5 @@
 mypy==0.982
-torch==1.12.0
+torch==2.9.0
 
 types-Markdown
 types-PyYAML
@@ -15,3 +15,4 @@ types-six
 types-toml
 types-tzlocal
 types-ujson
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
