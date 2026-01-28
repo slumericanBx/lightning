@@ -1,2 +1,4 @@
 torchmetrics  # necessary because old PL verions don't have it as dependency
 scikit-learn
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
