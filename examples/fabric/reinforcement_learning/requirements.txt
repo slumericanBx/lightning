@@ -3,3 +3,5 @@ moviepy
 lightning>=1.9.0
 torchmetrics
 tensorboard
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
