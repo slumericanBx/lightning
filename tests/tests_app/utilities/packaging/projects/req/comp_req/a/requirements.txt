@@ -1,3 +1,4 @@
 pandas
 pytorch_lightning==1.5.9
 git+https://github.com/mit-han-lab/torchsparse.git@v1.4.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
